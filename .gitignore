@@ -1,0 +1,22 @@
+# Reference documents (contain personal info) -- never commit
+*.docx
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+credentials*.json
+*service_account*.json
+db_connection.txt
+
+# Generated demo data (recreated by data_gen)
+data/*.duckdb
+data/incoming/
+data/exports/
+!data/.gitkeep

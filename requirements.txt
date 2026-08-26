@@ -1,0 +1,7 @@
+pandas>=2.0
+duckdb>=0.10
+Faker>=24.0
+python-dotenv>=1.0
+pytest>=8.0
+google-api-python-client>=2.100
+google-auth>=2.30
